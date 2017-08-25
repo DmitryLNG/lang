@@ -1,9 +1,9 @@
 {% load staticfiles %}
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
-<div style="header1"> Web сайт находиться в разработке</div>
-<div style="left1"></div>
-<div style="center">
+<div class="" ="header1"> Web сайт находиться в разработке</div>
+<div class="" ="left1"></div>
+<div class="center1">
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -15,4 +15,4 @@
     <p>No polls are available.</p>
 {% endif %}
 </div>
-<dir name="right1"></dir>
+<dir class="right1"></dir>
