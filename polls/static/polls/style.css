@@ -1,15 +1,25 @@
 li a {
-    color: green;
+    color: white;
 }
 
+.header1 {
+	text-align: center;
+	background: black;
+	color: yellow;
+}
 .left1 {
 	width: 200px;
+	float: left;
+	background: rgb(0,200,0);
 }
 .center1 {
 	background: grey;
 	color: white;
+	float: left;
 }
 
 .right1 {
 	width: 200px;
+	float: left;
+	background: rgb(0,230,0);
 }
