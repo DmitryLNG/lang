@@ -23,6 +23,6 @@ li a {
 .right1 {
 	width: 200px;
 	height: 500px;
-	float: left;
+	float: right;
 	background: rgb(0,230,0);
 }

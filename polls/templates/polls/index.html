@@ -10,9 +10,8 @@
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
     </ul>
-    Проверка изменений
+    
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
-</div>
-<dir class="right1"> Right </dir>
+</div><dir class="right1"> Right </dir>
