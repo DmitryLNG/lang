@@ -1,3 +1,14 @@
 li a {
     color: green;
 }
+
+.left1 {
+	width: 200px;
+}
+.center1 {
+	background: blue;
+}
+
+.right1 {
+	width: 200px;
+}
