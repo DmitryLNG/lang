@@ -2,13 +2,13 @@ li a {
     color: green;
 }
 
-.left1 {
+#left1 {
 	width: 200px;
 }
-.center1 {
+#center1 {
 	background: blue;
 }
 
-.right1 {
+#right1 {
 	width: 200px;
 }
