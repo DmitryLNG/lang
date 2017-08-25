@@ -9,17 +9,20 @@ li a {
 }
 .left1 {
 	width: 200px;
+	height: 500px;
 	float: left;
 	background: rgb(0,200,0);
 }
 .center1 {
 	background: grey;
+	height: 500px;
 	color: white;
 	float: left;
 }
 
 .right1 {
 	width: 200px;
+	height: 500px;
 	float: left;
 	background: rgb(0,230,0);
 }
