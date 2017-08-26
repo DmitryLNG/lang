@@ -33,7 +33,7 @@ class ResultsView(generic.DetailView):
 
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
-    context = {'latest_question_list': latest_question_list}
+    context = {'latest_question_list': latest_question_list, 'version': sys.version[:3]}
     return render(request, 'polls/index.html', context)
 
 def detail(request, question_id):
