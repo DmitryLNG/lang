@@ -1,0 +1,18 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<div class="header1"> Web сайт находиться в разработке</div>
+<div class="left1"> Left </div>
+<div class="center1">
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+    Проверка изменений
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+</div>
+<dir class="right1"> Right </dir>
