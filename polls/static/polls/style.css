@@ -1,6 +1,6 @@
 body {
-    margin: 0px;
-    padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 li a {
     color: white;
@@ -12,20 +12,29 @@ li a {
 	color: yellow;
 }
 .left1 {
-	width: 200px;
+	width: 20%;
 	height: 500px;
 	float: left;
 	background: rgb(0,200,0);
 }
 .center1 {
 	background: grey;
+	width: 60%;
 	height: 500px;
 	color: white;
+	float: left;
+	margin: auto;
+}
+.main1 {
+	background: blue;
+	width: 80%;
+	height: 100%;
+	color: white;
+	min-width: 300px;
 	
 }
-
 .right1 {
-	width: 200px;
+	width: 20%;
 	height: 500px;
 	float: left;
 	background: rgb(0,230,0);
