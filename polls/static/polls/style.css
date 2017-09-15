@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white url('polls/images/background1.jpg') no-repeat right bottom;
+}
+li a {
+    color: white;
+}
+
+.header1 {
+	text-align: center;
+	background: black;
+	color: yellow;
+	background: white url('images/background1.jpg') no-repeat right bottom;
+}
+.left1 {
+	width: 20%;
+	height: 500px;
+	float: left;
+	background: rgb(0,200,0);
+	background: white url('images/background1.jpg') no-repeat right bottom;
+}
+.center1 {
+	background: grey;
+	width: 60%;
+	height: 500px;
+	color: white;
+	float: left;
+	margin: auto;
+}
+.main1 {
+	background: blue;
+	width: 80%;
+	height: 100%;
+	color: white;
+	min-width: 300px;
+	
+}
+.right1 {
+	width: 20%;
+	height: 500px;
+	float: left;
+	background: rgb(0,230,0);
+        background: white url('images/background1.jpg') no-repeat right bottom;
+}
