@@ -64,6 +64,7 @@ body {
 }
 .headermain {
 	color: black;
+	text-shadow: 4 4px #ccc;
 
 }
 .slider {
@@ -102,6 +103,7 @@ body {
 .content {
 	font-size: 12px;
 	font-family: Arial ;
+	text-indent: 30px;
 	
 }
 .text_min {
